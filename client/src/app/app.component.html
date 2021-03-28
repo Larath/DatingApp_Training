@@ -1,0 +1,5 @@
+<!--  This file is the file being referenced by our Component -->
+<h1>{{title}}</h1> <!-- This is "Interpulation". This is a property coming from our Component  -->
+<ul>
+    <li *ngFor="let user of users">{{ user.id }} - {{user.userName}}</li>
+</ul>
